@@ -55,14 +55,7 @@ void init_rtc()
     PREINT  = PREINT_VAL;
     PREFRAC = PREFRAC_VAL;
     CCR = (1<<0) | (1<<4);//rtc timer on
-  /*
-  HOUR  = 12;
-    MIN   = 0;
-    SEC   = 0;
-    DOM   = 28;
-    MONTH = 11;
-    DOW   = 5; 
-   */
 	YEAR=2025;
 	year=YEAR; 
 }
+
