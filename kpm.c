@@ -53,17 +53,4 @@ u32 keyscan(void)
 
   return kpmLUT[r][c];
 }
-/*u32 ReadNum(void)
-{
-  u32 num;
-  u8 key;
-  while(1)
-  {
-     key=KeyScan();
-     if(key >= '0' && key <= '9')
-           num = (num * 10) + (key - '0');
-         else
-           break;
-  }
-  return num;
-}*/
+
